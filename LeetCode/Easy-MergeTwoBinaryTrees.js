@@ -6,7 +6,7 @@
  * Otherwise, the NOT null node will be used as the node of new tree.
  */
 
-// 처음 시도했던 방법  길이를 비교해서  더 짧은 배열의 길이만큼 순회하면서 merge 하는 방식
+// 처음 시도했던 방법  길이를 비교해서  더 짧은 배열의 길이만큼 순회하면서 merge 하는 방식이 잘못됨
 var mergeTrees = function (t1, t2) {
   let long, short;
   if (t1.length >= t2.length) {
